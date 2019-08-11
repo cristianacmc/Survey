@@ -53,11 +53,10 @@ main {
 	height: 30px;
 }
 
-.radio {
+ul {
 	display: inline-block;
 	vertical-align: middle;
-	margin-top: -1;
-	width: 20%;
+	padding-left: 0;
 }
 
 
