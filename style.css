@@ -1,0 +1,76 @@
+body{
+
+	font-family: 'Raleway', Helvetica, sans-serif;
+	background-color: black;
+	color: white;
+	color: black;
+}
+
+#title {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	margin: 30px 0 30px 0;
+}
+
+#description {
+	margin-bottom: 20px;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	text-align: center;
+}
+
+main {
+	width: 75%;
+	max-width: 900px;
+	background-color: #588c7e;
+	margin: 10px auto 10px auto;
+	border-radius: 5px;
+
+}
+
+#survey-form {
+	padding: 30px;
+}
+
+.label {
+	display: inline-block;
+	width: 400px;
+	text-align: right;
+	margin-right: 5px;
+}
+
+.mytext {
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+
+}
+
+#dropdown {
+	width: 130px;
+	height: 30px;
+}
+
+.radio {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -1;
+	width: 20%;
+}
+
+
+
+li {
+	list-style-type: none;
+
+}
+
+#submit {
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+	height: 40px;
+	width: 80px;
+}
