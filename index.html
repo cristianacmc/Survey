@@ -2,21 +2,23 @@
 <html>
 <head>
 	<title>survey</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic" rel="stylesheet">
 </head>
 <body>
 	<h1>Survey Form</h1>
 	<main>
 
-		<p>Let us know how we can improve freeCodeCamp</p>
+		<p id="description">Let us know how we can improve freeCodeCamp</p>
 
 		<form id="survey-form" action="#">
-			<p>* Name:</p> <input type="text" placeholder="Enter your name" required>
-			<p>* Email:</p> <input type="text" placeholder="Enter your email" required>
-			<p>* Age:</p> <input type="text" placeholder="Age" required>
+			<p id="name">* Name:</p> <input id="name-label" type="text" placeholder="Enter your name" required>
+			<p id="email">* Email:</p> <input id="email-label" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" type="email" required placeholder="Enter your email">
+			<p id="number">* Age:</p> <input id="number-label" type="number" min="10" max="100" placeholder="Age" required>
 
 			<!-- drop-down list -->
 			<p>Which option best describe your current role?</p>
-			<select>
+			<select id="dropdown">
 				<option disabled value="select-an-option">Select an Option</option>
 				<option value="student">Student</option>
 				<option value="full-time-job">Full Time Job</option>
@@ -29,23 +31,23 @@
 			<p>* How likely is that you would recommend freeCodeCamp to a friend?</p>
 
 			<label for="Definetely">
-				<input id="Definetely" type="radio" name="recommend"> Definetely
+				<input id="Definetely" type="radio" name="name"> Definetely
 			</label><br>
 			<label for="Maybe">
-				<input id="maybe" type="radio" name="recommend"> Maybe
+				<input id="maybe" type="radio" name="name"> Maybe
 			</label><br>
 			<label for="unure">
-				<input id="" type="radio" name="recommend"> Not sure
+				<input id="" type="radio" name="name"> Not sure
 			</label><br>
 
 			<!-- drop-down list -->
 			<p>What do you like most in FCC:</p>
 			<select>
-				<option disabled value="select-an-option">Select an Option</option>
-				<option value="challenges">Challenges</option>
-				<option value="projects">Projects</option>
-				<option value="community">Community</option>
-				<option value="open-source">Open Source</option>
+				<option disabled value="attribute">Select an Option</option>
+				<option value="attribute">Challenges</option>
+				<option value="attribute">Projects</option>
+				<option value="attribute">Community</option>
+				<option value="attribute">Open Source</option>
 			</select>
 
 
@@ -74,11 +76,11 @@
 
 			<!-- text box -->
 			<p>Any Comments or Suggestions?</p>
-			<input type="text" name="suggestions">
+			<input type="textarea" name="suggestions">
 
 
 
-			<button type="submit">Submit</button>
+			<button id="submit" type="submit">Submit</button>
 		</form>
 
 	</main>
