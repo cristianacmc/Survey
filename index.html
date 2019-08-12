@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
 </head>
 <body>
 	<h1 id="title">Survey Form</h1>
@@ -13,9 +14,12 @@
 		<p id="description">Let us know how we can improve freeCodeCamp</p>
 
 		<form id="survey-form" action="#">
-			<p id="name" class="label">* Name:</p> <input id="name-label" class="mytext" type="text" placeholder="Enter your name" required><br>
-			<p id="email" class="label">* Email:</p> <input id="email-label" class="mytext"pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" type="email" required placeholder="Enter your email"><br>
-			<p id="number" class="label">* Age:</p> <input id="number-label" class="mytext" type="number" min="10" max="100" placeholder="Age" required><br>
+			<label id="name-label" class="label">* Name:</label>
+			<input id="name" class="mytext" type="text" placeholder="Enter your name" required><br>
+			<label id="email-label" class="label">* Email:</label>
+			<input id="email" class="mytext"pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" type="email" required placeholder="Enter your email"><br>
+			<label id="number-label" class="label">* Age:</label>
+			<input id="number"  class="mytext" type="number" min="10" max="100" placeholder="Age" required><br>
 
 			<!-- drop-down list -->
 			<p class="label">Which option best describe your current role?</p>
@@ -33,13 +37,13 @@
 			<p class="label">* How likely is that you would recommend freeCodeCamp to a friend?</p>
 			<ul>
 				<li><label for="Definetely">
-					<input id="Definetely" type="radio" name="name"> Definetely
+					<input id="Definetely" type="radio" name="name" value="Definetely"> Definetely
 				</label><br></li>
 				<li><label for="Maybe">
-					<input id="maybe"   type="radio" name="name"> Maybe
+					<input id="maybe"   type="radio" name="name" value="maybe"> Maybe
 				</label><br></li>
 				<li><label for="Not sure">
-					<input id="unsure" type="radio" name="name"> Not sure
+					<input id="unsure" type="radio" name="name" value="not-sure"> Not sure
 				</label></li>
 			</ul>
 			<br>
@@ -58,25 +62,25 @@
 			<!-- check box -->
 			<p class="label">Things that should be improved in the future Check all that apply):</p>
 			<ul id="checkbox">
-				<li><label for="front-end"><input id="front-end" type="checkbox" name="improvement"> Front-end Projects</label></li>
+				<li><label for="front-end"><input id="front-end" type="checkbox" name="improvement" value="front-end"> Front-end Projects</label></li>
 
-				<li><label for="back-end"><input id="back-end" type="checkbox" name="improvement"> Back-end Projects</label></li>
+				<li><label for="back-end"><input id="back-end" type="checkbox" name="back-end" value="back-end"> Back-end Projects</label></li>
 
-				<li><label for="data-visualization"><input id="data-visualization" type="checkbox" name="improvement"> Data Visualization</label></li>
+				<li><label for="data-visualization"><input id="data-visualization" type="checkbox" name="data-visualization" value="data-visualization"> Data Visualization</label></li>
 
-				<li><label for="challenges"><input id="challenges" type="checkbox" name="improvement"> Challenges</label><br></li>
+				<li><label for="challenges"><input id="challenges" type="checkbox" name="challenges" value="challenges"> Challenges</label><br></li>
 
-				<li><label for="open-source-community"><input id="open-source-community" type="checkbox" name="improvement"> Open Source Community</label></li>
+				<li><label for="open-source-community"><input id="open-source-community" type="checkbox" name="open-source-community" value="open-source-community"> Open Source Community</label></li>
 
-				<li><label for="gitter-help-rooms"><input id="gitter-help-rooms" type="checkbox" name="improvement"> Gitter help rooms</label></li>
+				<li><label for="gitter-help-rooms"><input id="gitter-help-rooms" type="checkbox" name="gitter-help-rooms" value="gitter-help-rooms"> Gitter help rooms</label></li>
 
-				<li><label for="city-meetups"><input id="city-meetups" type="checkbox" name="improvement"> City Meetups</label></li>
+				<li><label for="city-meetups"><input id="city-meetups" type="checkbox" name="city-meetups" value="city-meetups"> City Meetups</label></li>
 
-				<li><label for="wiki"><input id="wiki" type="checkbox" name="improvement"> Wiki</label></li>
+				<li><label for="wiki"><input id="wiki" type="checkbox" name="wiki" value="wiki"> Wiki</label></li>
 
-				<li><label for="forum"><input id="forum" type="checkbox" name="improvement"> Forum</label></li>
+				<li><label for="forum"><input id="forum" type="checkbox" name="forum" value="forum"> Forum</label></li>
 
-				<li><label for="additional-courses"><input id="additional-courses" type="checkbox" name="improvement"> Additional Courses</label></li>
+				<li><label for="additional-courses"><input id="additional-courses" type="checkbox" name="additional-courses" value="additional-courses"> Additional Courses</label></li>
 			</ul>
 
 			<!-- text box -->
@@ -88,7 +92,7 @@
 				<button id="submit" type="submit" placeholder="Enter your comment here...">Submit</button>
 			</div>
 		</form>
-
 	</main>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
