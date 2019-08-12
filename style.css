@@ -35,20 +35,20 @@ main {
 
 .label {
 	display: inline-block;
-	width: 400px;
+	width: 45%;
 	text-align: right;
 	margin-right: 5px;
 }
 
 .mytext {
-	width: 200px;
+	width: 30%;
 	height: 30px;
 	border-radius: 5px;
 
 }
 
 #dropdown {
-	width: 130px;
+	width: 30%;
 	height: 30px;
 }
 
