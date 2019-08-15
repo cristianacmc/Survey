@@ -39,19 +39,51 @@ main {
 	padding: 5px;
 }
 
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 80%;
+	height: 52px;
+}
+
+.div-label {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-left: 15px;
+}
+
+.div-drop {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+}
+
+.label-drop {
+	width: 100%;
+	text-align: right;
+	vertical-align: top;
+}
+
+#dropdown {
+	width: 140px;			;
+	height: 35px;
+	padding: 5px;
+	margin: 15px 0 0 17px;
+	vertical-align: middle;
+	text-align: left;
+}
+
 .mytext {
 	width: 35%;
 	height: 20px;
 	border-radius: 5px;
 	padding: 5px;
 	margin: 10px;
-}
-
-#dropdown {
-	width: 30%				;
-	height: 35px;
-	padding: 5px;
-	margin-left: 10px;
 }
 
 ul {
