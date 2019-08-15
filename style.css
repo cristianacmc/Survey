@@ -39,6 +39,14 @@ main {
 	padding: 5px;
 }
 
+.mytext {
+	width: 35%;
+	height: 20px;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px;
+}
+
 .row {
 	display: flex;
 	flex-direction: row;
@@ -65,7 +73,7 @@ main {
 }
 
 .drop-options {
-	margin-top: 8px;
+	margin-top: 5px;
 }
 
 .label-drop {
@@ -92,15 +100,6 @@ main {
 	padding-left: 0;
 }
 
-.mytext {
-	width: 35%;
-	height: 20px;
-	border-radius: 5px;
-	padding: 5px;
-	margin: 10px;
-}
-
-
 li {
 	list-style-type: none;
 	margin-bottom: 3px;
@@ -110,7 +109,7 @@ li {
 #textarea {
 	border-radius: 3px;
 	vertical-align: top;
-	margin-top: 10px;
+	margin: 10px;
 	resize: vertical;
 }
 
@@ -183,7 +182,6 @@ div {
 		border-radius: 5px;
 		margin-top: 0;
 	}
-
 
 	ul {
 		margin-top: 0;
