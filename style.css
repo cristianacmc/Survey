@@ -124,13 +124,10 @@ div {
 		margin-top: 0;
 	}
 
-	#dropdown {
-		width: 30%;
-		height: 35px;
-	}
 }
 
 @media (max-width: 520px) {
+
 	.description {
 		font-size: 18px;
 		margin-bottom: 0;
@@ -142,6 +139,37 @@ div {
 		text-align: left;
 	}
 
+	.row {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.div-label {
+		width: 100%;
+	}
+
+	.label-drop {
+		width: 100%;
+		text-align: left;
+	}
+
+
+	.label-drop {
+		width: 100%;
+		text-align: left;
+		margin-bottom: 0;
+	}
+
+	.div-drop {
+		width: 100%;
+	}
+
+	#dropdown {
+		width: 60%;
+		margin: 6px 0 0 12px;
+	}
+
 	.mytext {
 		width: 90%;
 		height: 30px;
@@ -149,9 +177,6 @@ div {
 		margin-top: 0;
 	}
 
-	#dropdown {
-		width: 50%
-	}
 
 	ul {
 		margin-top: 0;
