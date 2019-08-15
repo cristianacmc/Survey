@@ -125,14 +125,8 @@ div {
 	font-size: 18px;
 }
 
-@media(max-width: 880px) {
-	ul {
-		margin-top: 0;
-	}
 
-}
-
-@media (max-width: 520px) {
+@media (max-width: 687px) {
 
 	.description {
 		font-size: 18px;
@@ -160,7 +154,6 @@ div {
 		text-align: left;
 	}
 
-
 	.label-drop {
 		width: 100%;
 		text-align: left;
@@ -183,8 +176,8 @@ div {
 		margin-top: 0;
 	}
 
-	ul {
-		margin-top: 0;
+	.label-textarea {
+		margin-left: 10px;
 	}
 
 	#textarea {
