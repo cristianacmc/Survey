@@ -45,6 +45,7 @@ main {
 	justify-content: center;
 	width: 80%;
 	height: 52px;
+	margin-bottom: 10px;
 }
 
 .div-label {
@@ -73,7 +74,7 @@ main {
 	width: 140px;			;
 	height: 35px;
 	padding: 5px;
-	margin: 15px 0 0 17px;
+	margin: 15px 0 10px 17px;
 	vertical-align: middle;
 	text-align: left;
 }
@@ -86,11 +87,7 @@ main {
 	margin: 10px;
 }
 
-ul {
-	display: inline-block;
-	vertical-align: middle;
-	padding-left: 0;
-}
+
 
 li {
 	list-style-type: none;

@@ -40,29 +40,41 @@
 			<br>
 
 			<!-- radio button -->
-			<p class="label">* How likely is that you would recommend freeCodeCamp to a friend?</p>
-			<ul>
-				<li><label for="Definetely">
-					<input id="Definetely" type="radio" name="name" value="Definetely"> Definetely
-				</label><br></li>
-				<li><label for="Maybe">
-					<input id="maybe"   type="radio" name="name" value="maybe"> Maybe
-				</label><br></li>
-				<li><label for="Not sure">
-					<input id="unsure" type="radio" name="name" value="not-sure"> Not sure
-				</label></li>
-			</ul>
+			<div class="row">
+				<div class=div-label>
+					<p class="label-drop">* How likely is that you would recommend freeCodeCamp to a friend?</p>
+				</div>
+				<div class="div-drop">
+					<ul id="dropdown">
+						<li><label for="Definetely">
+							<input id="Definetely" type="radio" name="name" value="Definetely"> Definetely
+						</label><br></li>
+						<li><label for="Maybe">
+							<input id="maybe"   type="radio" name="name" value="maybe"> Maybe
+						</label><br></li>
+						<li><label for="Not sure">
+							<input id="unsure" type="radio" name="name" value="not-sure"> Not sure
+						</label></li>
+					</ul>
+				</div>
+			</div>
 			<br>
 
 			<!-- drop-down list -->
-			<p class="label">What do you like most in FCC:</p>
-			<select id="dropdown">
-				<option value="attribute">Select an Option</option><br>
-				<option value="attribute">Challenges</option><br>
-				<option value="attribute">Projects</option><br>
-				<option value="attribute">Community</option><br>
-				<option value="attribute">Open Source</option><br>
-			</select>
+			<div class="row">
+				<div class=div-label>
+					<p class="label-drop">What do you like most in FCC:</p>
+				</div>
+				<div class="div-drop">
+					<select id="dropdown">
+						<option value="attribute">Select an Option</option><br>
+						<option value="attribute">Challenges</option><br>
+						<option value="attribute">Projects</option><br>
+						<option value="attribute">Community</option><br>
+						<option value="attribute">Open Source</option><br>
+					</select>
+				</div>
+			</div>
 
 
 			<!-- check box -->
